@@ -1,0 +1,135 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+.menu-principal{
+    display: flex;
+}
+.menu-bar{
+    padding-left: 830px;
+    padding-top: 70px;
+}
+.zoror{
+    display: flex;
+    padding: 10px;
+}
+.zoror h2{
+    margin-bottom: -40rem;
+}
+menu li{
+    float: left;
+    list-style-type: none ;
+    padding: 8px;
+    margin-right: 20px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.grand-img img{
+    width: 100%;
+    height: 30vh;
+    padding: 8px;
+    border-radius: 1.0rem;
+    position: relative;
+}
+.grand-img p{
+    position: absolute;
+    bottom: 42%;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+   color: white;
+   margin-left: 10px;
+}
+/*Gerer le button le Voir l'article*/
+button{
+    margin-left: 1000px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 5vh;
+    color: white;
+    cursor: pointer;   
+}
+/*Gerer le contenu du page*/
+.logo2{
+    display: flex;
+    padding: 10px;
+}
+.contenu-principal {
+    display: flex;
+    box-shadow: 2px 2px 0px 0px black;
+}
+.contenu-p{
+    display: flex;
+    padding-left: 15px;
+}
+.contenu-p p{
+    padding-right: 50px;
+}
+.cote{
+    margin-left: -12px;
+    margin-top: 30px;
+}
+.p-icon{
+  background-color: brown;
+    margin-top: -60px;
+    color: white;
+    border-radius: 2%;
+}
+
+.p-icon h3{
+    padding-left: 20px;
+}
+.p-icon .mique{
+    padding-left: 70px;
+}
+.p-icon .icon div{
+ padding-left: 50px;
+}
+.p-icon p{
+    padding-left: 10px;
+}
+.fleche{
+  padding-left: 600px;
+ 
+}
+/*Gerer le footer*/
+footer{
+    display: flex;
+}
+.MON-DERNIER-TWEET{
+    padding-left: 10px;
+}
+.MES-PHOTOS{
+    padding-left: 220px;
+}
+.ul1{
+    padding-left: 80px;
+    padding-top: -40px;
+}
+.ul1,.ul2{
+    list-style-image: url(affectation.jpg);
+}
+.MES-PHOTOS img{
+    width: 100px;
+}
+.TU-MAIMES{
+padding-left: 40px;
+}
+.ul1{
+    padding-left: 10px;
+}
+.ul2{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+footer ul{
+    color: rgb(194, 53, 53);
+}
+
+
